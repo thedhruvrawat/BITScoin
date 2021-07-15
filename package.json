@@ -1,0 +1,22 @@
+{
+  "name": "bitscoin",
+  "version": "1.0.0",
+  "description": "A simple blockchain implemented in JavaScript",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thedhruvrawat/BITScoin.git"
+  },
+  "keywords": [
+    "blockchain"
+  ],
+  "author": "Dhruv Rawat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thedhruvrawat/BITScoin/issues"
+  },
+  "homepage": "https://github.com/thedhruvrawat/BITScoin#readme"
+}
