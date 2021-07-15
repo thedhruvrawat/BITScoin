@@ -2,7 +2,7 @@
   "name": "bitscoin",
   "version": "1.0.0",
   "description": "A simple blockchain implemented in JavaScript",
-  "main": "main.js",
+  "main": "src/blockchain.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/thedhruvrawat/BITScoin/issues"
   },
-  "homepage": "https://github.com/thedhruvrawat/BITScoin#readme"
+  "homepage": "https://github.com/thedhruvrawat/BITScoin#readme",
+  "dependencies": {
+    "crypto-js": "^4.0.0",
+    "elliptic": "^6.5.4"
+  }
 }
