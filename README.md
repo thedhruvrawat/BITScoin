@@ -67,7 +67,7 @@ sampleBC.minePendingTransactions(<YOUR_PUBLIC_KEY>);
 
 ## Screenshots
 
-![Sample Block](./screenshots/block.jpg)
+![Sample Block](./screenshots/block.JPG)
 
 Uncomment the following lines in `main.js` to see the application in action:
 
@@ -76,5 +76,5 @@ console.log(tx1);
 console.log(BITScoin);
 ```
 
-![Blockchain](./screenshots/main.jpg)
+![Blockchain](./screenshots/main.JPG)
 
