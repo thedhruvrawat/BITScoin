@@ -53,11 +53,15 @@ const sampleTx = new Transaction(
     <YOUR_PUBLIC_KEY>, 
     <ADDRESS_TO_SEND>,
     <AMOUNT_TO_SEND>
-    );
+    )
+```
+```javascript
 //Sign the transaction
 sampleTx.sign(<YOUR_PRIVATE_KEY>);
+```
+```javascript
 //Add transaction to blockchain
-sampleBC.addTransaction(sampleTx);
+sampleBC.addTransaction(sampleTx)
 ```
 
 - Step 3: Mine the transaction
