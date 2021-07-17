@@ -7,11 +7,17 @@ const myWalletAddress = myKey.getPublic('hex');
 
 let BITScoin = new Blockchain();
 
-const tx1 = new Transaction(myWalletAddress, 'public key goes here', 10);
+const tx1 = new Transaction(myWalletAddress, '<Public Key>', 100);
 tx1.signTransaction(myKey);
 BITScoin.addTransaction(tx1);
+const tx2 = new Transaction(myWalletAddress, '<Public Key>', 50);
+tx2.signTransaction(myKey);
+BITScoin.addTransaction(tx2);
 
 console.log('\nStarting the miner......');
 BITScoin.minePendingTransactions(myWalletAddress);
 
-console.log('\nBalance of Dhruv is ', BITScoin.getBalanceOfAddress(myWalletAddress));
+console.log('\nBalance in your wallet is ', BITScoin.getBalanceOfAddress(myWalletAddress));
+console.log('\n')
+// console.log(tx1);
+// console.log(BITScoin)
