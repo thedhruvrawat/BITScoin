@@ -13,7 +13,7 @@ You can read more [here](https://opiria.io/what-is-blockchain-in-simple-terms/)
 - [x] Implement proof-of-work
 - [x] Add mining rewards
 - [x] Add transaction signature functionality
-- [x] Build a frontend framework for the blockchain (hosted [here](thedhruvrawat.github.io/DRcoin))
+- [x] Build a frontend framework for the blockchain (hosted [here](https://thedhruvrawat.github.io/bitscoin-frontend/))
 
 ## Installation
 
