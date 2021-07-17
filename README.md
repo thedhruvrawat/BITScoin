@@ -57,7 +57,7 @@ const sampleTx = new Transaction(
 ```
 ```javascript
 //Sign the transaction
-sampleTx.sign(<YOUR_PRIVATE_KEY>);
+sampleTx.signTransaction(<YOUR_PRIVATE_KEY>);
 ```
 ```javascript
 //Add transaction to blockchain
